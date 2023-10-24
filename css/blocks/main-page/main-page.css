@@ -1,6 +1,6 @@
 .main-page  {
   /* border:red 2px solid; */
-  max-height: 893px;
+  /* min-height: 893px; */
   max-width: 100%;
 
   position: relative;
@@ -14,7 +14,6 @@
 
 .main-page-heading  {
   /* border: green 2px solid; */
-  
   min-height: 160px;
   width: 635px;
   display:flex;
@@ -23,8 +22,6 @@
 
   margin:45px 403px 45px;
   position: absolute;
-
-  
 
 }
 

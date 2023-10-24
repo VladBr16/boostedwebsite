@@ -1,0 +1,127 @@
+.section-page{
+  display: flex;
+  max-width: 100%;
+  /* display: flex;
+  align-items: center; */
+  
+}
+.section-page-container{
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px  130px 20px;
+  width: 100%;
+}
+.section-page-info{
+  width: 700px;
+  height: 183px;
+  text-align: center;
+
+  margin: 30px 240px 21px;
+}
+.section-page-info-heading{
+  min-width: 663px;
+  margin-bottom: 17px;
+
+
+}
+
+.info-heading-h2{
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.section-page-info-p{
+  width: 685px;
+  position: relative
+} 
+.section-page-info-p::after{
+  content: "";
+  position: absolute;
+  background-color: #CFCFCF;
+  width: 70px;
+  height: 2px;
+  top: 82px;
+  left: 315px;
+  
+}
+.info-heading-p{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.section-page-images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  max-width: 100%;
+}
+
+.section-page-image-board {
+  max-width: 560px;
+  max-height: 560px;
+
+  margin-right: 10px;
+
+  position: relative;
+}
+
+.section-page-image-revs{
+  max-width: 560px;
+  max-height: 560px;
+  
+  margin-left: 10px;
+
+  position: relative;
+}
+.page-images{
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+
+  position: relative;
+}
+
+.page-images-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  min-width: 216px;
+
+  position: absolute;
+  top: 40%;
+  right: 25%;
+  
+}
+
+.page-images-h4{
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+
+  text-align: center;
+
+}
+
+.page-images-p{
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+
+  margin-top:14px;
+  text-align: center;
+
+}
