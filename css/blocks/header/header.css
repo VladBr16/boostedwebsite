@@ -1,0 +1,135 @@
+.header{
+    box-sizing: content-box;
+}
+
+.header__container{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.header-advertising{
+  background-color:black;
+  height: 29px;
+}
+
+.advertising-text{
+  color: #FBFBFB;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 2px;
+}
+.adv-text{
+  padding: 7px;
+
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+.navigation_list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:15px 20px 15px 11px
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list a{
+  gap: 22px;
+  color: #000;
+
+  font-family: 'Roboto' ,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.nav_icons{
+  display:flex;
+  gap:10px;
+}
+
+  @media (max-width: 1980px){
+
+    .advertising-text{
+      font-size: 15px;
+    }
+
+    .nav-list{
+      gap: 30px;
+      color: #000;
+    
+      font-family: 'Roboto', sans-serif;
+      font-size: 19px;
+    }
+
+    .nav_icons{
+      display:flex;
+      gap:15px;
+    }
+    .nav_icons_size{
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  @media (max-width: 1480px){
+
+    .advertising-text{
+      font-size: 12px;
+    }
+    .nav-list{
+      gap: 22px;
+      font-size: 14px;
+    }  
+    .nav_icons_size{
+      width: 18px;
+      height: 18px;
+    }
+
+  }
+
+  @media (max-width: 1024px){
+
+    .advertising-text{
+      font-size: 12px;
+    }
+    .nav-list{
+      gap: 20px;
+      font-size: 12px;
+    }
+    .nav_icons{
+      display:flex;
+      gap:12px;
+    }
+    .nav_icons_size{
+      width: 18px;
+      height: 18px;
+    }
+  }
+  @media (max-width: 886px){
+
+    .advertising-text{
+      font-size: 8px;
+    }
+    .nav-list{
+      gap: 13px;
+      font-size: 10px;
+    }
+    .nav_icons{
+      display:flex;
+      gap:10px;
+    }
+    .nav_icons_size{
+      width: 15px;
+      height: 15px;
+    }
+  }

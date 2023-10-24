@@ -15,7 +15,7 @@
 
 a, a:link, a:visited  {
     text-decoration: none;
-    color: #000;
+    /* color: #000; */
 }
 
 a:hover  {
@@ -46,11 +46,11 @@ ul {
 	list-style: none;
 }
 
-img {
-	/* vertical-align: top; */
+/* img {
+	vertical-align: top;
 }
 
-/* img, svg {
+img, svg {
 	max-width: 100%;
 	height: auto;
 } */
@@ -62,7 +62,7 @@ address {
 /* Form */
 
 input, textarea, button, select {
-	font-family: inherit;
+	  font-family: inherit;
     font-size: inherit;
     color: inherit;
     background-color: transparent;

@@ -1,8 +1,10 @@
 
-html, body {
-  display: flex;
-  flex-direction: column;
+body {
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  width:100%;
+
+  /* border: red solid 2px; */
 }
 
 
