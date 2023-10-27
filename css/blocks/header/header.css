@@ -52,6 +52,9 @@
   text-transform: uppercase;
 }
 
+.nav-list a:hover{
+  color: #FF4A32;
+}
 .nav_icons{
   display:flex;
   gap:10px;

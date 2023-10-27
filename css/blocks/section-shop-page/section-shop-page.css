@@ -16,21 +16,39 @@
 .shop-page-image{
   display: flex;
   justify-content: center;
-
+  max-width: 480px;
   width:100%;
 
-
   position: relative;
+
+    /* animation */
+    overflow: hidden; 
 }
 .shop-img{
-  display:block;
+  display:inline-block;
+  width: 480px;
+  
   max-width: 100%;
+
+  /* animation */
+  transition: 1s;
+  display: block;
 }
+
+.shop-img:hover{
+  transform: scale(1.2);
+}
+
+
 
 .shop-page-text{
   position: absolute;
   top:45%;
 
+  
+}
+
+.shop-page-h2 {
   color: #FFFFFF;
   font-size: 25px;
   font-weight: 400;
@@ -40,6 +58,8 @@
   line-height: 1.5;
 }
 
+
 .shop-page-p{
+  color: #FFFFFF;
   font-size: 18px;
 }

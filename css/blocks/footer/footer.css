@@ -1,0 +1,93 @@
+.footer{
+  width: 100%;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+}
+
+.footer-copyright{
+  width: 780px;
+
+  display: flex;
+  padding: 20px 68px 20px 10px ;
+
+}
+
+.footer-copyright a{
+  color: #FF4A32;
+}
+
+.footer-data{
+
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+
+.boosted-link{
+color: #FF4A32;
+font-size: 12px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.all-rights-reserved{
+
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+
+.terms-of-service{
+  color: #FF4A32; 
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+
+.author{
+
+font-size: 13px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.author-link{
+  color: #FF4A32; 
+
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+
+.footer-pay-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 332px;
+}
+
+.footer-card{
+  margin-left: 4px;
+}
+

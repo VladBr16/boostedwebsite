@@ -74,7 +74,13 @@
   margin-right: 10px;
 
   position: relative;
+
+  /* animation */
+  display: inline-block;
+  overflow: hidden; 
 }
+
+
 
 .section-page-image-revs{
   max-width: 560px;
@@ -83,13 +89,27 @@
   margin-left: 10px;
 
   position: relative;
+
+   /* animation */
+  display: inline-block;
+  overflow: hidden
 }
+
 .page-images{
+  cursor: pointer;
   max-width: 100%;
   height: auto;
   margin: 0 auto;
 
   position: relative;
+
+  /* animation */
+  transition: 1s;
+  display: block;
+}
+
+.page-images:hover{
+  transform: scale(1.2);
 }
 
 .page-images-text {
