@@ -1,0 +1,23 @@
+.section-video{
+
+}
+
+.video-container{
+  margin: 0 140px 54px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap:20px;
+}
+
+.video-page{
+display: block;
+
+}
+
+.video{
+  width: 100%;
+}
+
