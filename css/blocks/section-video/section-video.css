@@ -21,3 +21,10 @@ display: block;
   width: 100%;
 }
 
+@media (max-width: 1000px) {
+  .video-container{
+    margin: 0 80px 54px;
+    gap:20px;
+  }
+}
+

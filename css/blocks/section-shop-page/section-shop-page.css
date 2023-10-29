@@ -63,3 +63,10 @@
   color: #FFFFFF;
   font-size: 18px;
 }
+
+@media (max-width:1000px){
+  .shop-page-container{
+    display: flex;
+    flex-direction: column;
+  }
+}

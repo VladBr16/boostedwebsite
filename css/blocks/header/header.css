@@ -5,7 +5,6 @@
 .header__container{
   display: flex;
   flex-direction: column;
-
 }
 
 .header-advertising{
@@ -15,11 +14,13 @@
 
 .advertising-text{
   color: #FBFBFB;
+
   font-size: 12px;
   font-weight: 400;
   line-height: 15px;
   letter-spacing: 2px;
 }
+
 .adv-text{
   padding: 7px;
 
@@ -27,6 +28,7 @@
   justify-content: center;
   align-content: center;
 }
+
 .navigation_list{
   display: flex;
   justify-content: space-between;
@@ -38,16 +40,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap:20px;
 }
+
 .nav-list a{
-  gap: 22px;
+  gap: 30px;
   color: #000;
 
   font-family: 'Roboto' ,sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 21px; /* 150% */
+  line-height: 21px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -60,47 +64,17 @@
   gap:10px;
 }
 
-  @media (max-width: 1980px){
-
-    .advertising-text{
-      font-size: 15px;
-    }
-
-    .nav-list{
-      gap: 30px;
-      color: #000;
-    
-      font-family: 'Roboto', sans-serif;
-      font-size: 19px;
-    }
-
-    .nav_icons{
-      display:flex;
-      gap:15px;
-    }
-    .nav_icons_size{
-      width: 20px;
-      height: 20px;
-    }
+@media (max-width:1017px){
+  .navigation_list{
+    padding: 15px 30px 15px 30px;
   }
-
-  @media (max-width: 1480px){
-
-    .advertising-text{
-      font-size: 12px;
-    }
-    .nav-list{
-      gap: 22px;
-      font-size: 14px;
-    }  
-    .nav_icons_size{
-      width: 18px;
-      height: 18px;
-    }
-
+  .nav-list{
+    display: none;
   }
+}
 
-  @media (max-width: 1024px){
+
+  @media (max-width: 1000px){
 
     .advertising-text{
       font-size: 12px;
@@ -135,4 +109,4 @@
       width: 15px;
       height: 15px;
     }
-  }
+  } 

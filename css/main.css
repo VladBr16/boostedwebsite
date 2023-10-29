@@ -10,7 +10,9 @@
 @import url('./blocks/section-shop-page/section-shop-page.css');
 @import url('./blocks/section-video/section-video.css');
 @import url('./blocks/section-accessoires-page/section-accessoires-page.css');
-@import url('./blocks/footer-product-benefits/footer-product-benefits.css');
+@import url('./blocks/section-product-benefits/section-product-benefits.css');
 @import url('./blocks/section-footer-nav/section-footer-nav.css');
 @import url('./blocks/footer/footer.css');
+@import url('./blocks/mobile-nav-list/mobile-nav-list.css');
+@import url('./blocks/mobile-button/mobile-button.css');
 

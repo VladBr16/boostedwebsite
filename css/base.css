@@ -1,5 +1,6 @@
 html{
   scroll-behavior: smooth;
+  /* max-width: 1440px; */
 }
 
 body {
@@ -27,6 +28,10 @@ body {
 
 .btn:hover{
   background: #d33f2b;
+}
+
+.no-scroll{
+  overflow: hidden;
 }
 
 

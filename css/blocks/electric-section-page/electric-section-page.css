@@ -62,3 +62,14 @@
   margin:20px 181px 12px 182px;
 
 }
+
+@media(max-width: 1000px) {
+  .electric-page-h1{
+    font-size: 30px;
+    margin-bottom: 11px;
+  }
+
+  .electric-page-p{
+    font-size: 13px;
+  }
+}
