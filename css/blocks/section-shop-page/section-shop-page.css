@@ -70,3 +70,9 @@
     flex-direction: column;
   }
 }
+
+@media (max-width:768px){
+  .shop-page-container {
+    margin:20px;
+}
+}
